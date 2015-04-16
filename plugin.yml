@@ -1,0 +1,20 @@
+name: Emoji
+main: com.thenathang.emoji.Emoji
+author: NathanG
+version: 1.0.0
+
+commands:
+  emoji:
+    description: Displays all the emoji!
+    
+    
+permissions:
+  emoji.list:
+    default: op
+    description: List all of the emoji.
+  emoji.use:
+    default: op
+    description: Use emoji in chat.
+  emoji.sendpack:
+    default: op
+    description: Send the resource pack to a different player.

@@ -1,0 +1,20 @@
+#############
+# Resource Pack Link
+########
+# Feel free to use my
+# CDN, and also feel free
+# to donate to help me keep
+# that up.
+########
+# You can download and
+# host it wherever you
+# want though!
+resource-pack: "http://cdn.thenathang.com/emoji/emoji.zip"
+
+#############
+# Send On Join
+########
+# Disable if you wish to handle sending
+# the resource pack by yourself.
+send-resource-pack-on-join: true
+
