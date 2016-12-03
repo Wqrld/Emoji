@@ -62,17 +62,17 @@ public class EmojiCommand implements CommandExecutor {
 		FancyMessage message = new FancyMessage("");
 		
 		for (Object obj : ConfigEmoji.emoji.getConfigurationSection("emoji").getKeys(false)) {
-			message.then(ConfigEmoji.emoji.getString("emoji." + obj.toString())).color(ChatColor.WHITE).insert(ConfigEmoji.emoji.getString("emoji." + obj.toString())).tooltip("§8" + obj.toString()).color(ChatColor.DARK_GRAY);
+			message.then(ConfigEmoji.emoji.getString("emoji." + obj.toString())).color(ChatColor.WHITE).insert(ConfigEmoji.emoji.getString("emoji." + obj.toString())).tooltip("Â§8" + obj.toString()).color(ChatColor.DARK_GRAY);
 		}
 		
 		s.sendMessage("");
-		FancyMessage header = new FancyMessage("Emoji").color(ChatColor.GREEN).tooltip("§8By NathanG")
-								  .then(" [Hover for Help]").color(ChatColor.GRAY).tooltip("§aHover over an emoji §8to see the code.", 
-										  "§8  - You can type this into chat.", 
-										  "§aShift click an emoji §8to automagically put it in.",
+		FancyMessage header = new FancyMessage("Emoji").color(ChatColor.GREEN).tooltip("Â§8By NathanG")
+								  .then(" [Hover for Help]").color(ChatColor.WHITE).tooltip("Â§aHover over an emoji Â§8to see the code.", 
+										  "Â§8  - You can type this into chat.", 
+										  "Â§aShift click an emoji Â§8to automagically put it in.",
 										  "",
-										  "§8Seeing strange characters?",
-										  "§8Do §a/emoji getpack");
+										  "Â§8Seeing strange characters?",
+										  "Â§8Do Â§a/emoji getpack");
 		
 								  
 								
